@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-gallery",
+  "version": "0.0.1",
+  "homepage": "https://github.com/iamssurya/portfolio-gallery",
+  "authors": [
+    "surya <iamssurya@gmail.com>"
+  ],
+  "description": "Gallery to display list of work/project portfolios",
+  "main": "index.html",
+  "keywords": [
+    "gallery",
+    "image",
+    "gallery",
+    "portfolios",
+    "work"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

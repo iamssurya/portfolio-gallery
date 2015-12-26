@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'adduser' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 warn Email must be an email address
+6 warn Email must be an email address
+7 warn Email must be an email address
+8 warn Email must be an email address
+9 warn Email must be an email address
+10 error Error: canceled
+10 error     at Interface.<anonymous> (/usr/lib/node_modules/npm/node_modules/read/lib/read.js:66:13)
+10 error     at Interface.emit (events.js:92:17)
+10 error     at Interface._ttyWrite (readline.js:621:16)
+10 error     at ReadStream.onkeypress (readline.js:100:10)
+10 error     at ReadStream.emit (events.js:98:17)
+10 error     at emitKey (readline.js:1096:12)
+10 error     at ReadStream.onData (readline.js:841:14)
+10 error     at ReadStream.emit (events.js:95:17)
+10 error     at ReadStream.<anonymous> (_stream_readable.js:765:14)
+10 error     at ReadStream.emit (events.js:92:17)
+11 error If you need help, you may report this *entire* log,
+11 error including the npm and node versions, at:
+11 error     <http://github.com/npm/npm/issues>
+12 error System Linux 3.16.0-44-generic
+13 error command "/usr/bin/node" "/usr/bin/npm" "adduser"
+14 error cwd /var/www/html/mini/portfolio-gallery
+15 error node -v v0.10.37
+16 error npm -v 1.4.28
+17 verbose exit [ 1, true ]
