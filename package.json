@@ -1,0 +1,32 @@
+{
+  "name": "portfolio-gallery",
+  "version": "0.0.1",
+  "description": "Gallery to display list of work/project portfolios",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamssurya/portfolio-gallery.git"
+  },
+  "keywords": [
+    "gallery",
+    "image",
+    "portfolio",
+    "image",
+    "gallery",
+    "modal",
+    "gallery"
+  ],
+  "author": "surya s",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamssurya/portfolio-gallery/issues"
+  },
+  "homepage": "https://github.com/iamssurya/portfolio-gallery",
+  "dependencies": {
+    "font-awesome": "^4.5.0",
+    "jquery": "^2.1.4"
+  }
+}

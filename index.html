@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Portfolio Gallery</title>
+		<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/portfolio.css">
+	</head>
+	<body>
+		<div style="text-align:center;font-weight:300;">
+			<h1>MY PORTFOLIO</h1>
+		</div>
+		<div id="portfolio">
+		</div>
+		<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="js/portfolio.js"></script>
+		<script>
+		var portfolioData = [
+			{
+				"title":"Test",
+				"image":"https://www.drupal.org/files/issues/sample_7.png",
+				"description":"Created the great website through this Created the great website through this Created the great website through this Created the great website through this Created the great website through this Created the great website through this Created the great website through thisCreated the great website through thisCreated the great website through thisCreated the great website through thisCreated the great website through thisCreated the great website through thisCreated the great website through this" 
+			},{
+				"title":"Car Pooling Website",
+				"image":"https://www.drupal.org/files/issues/sample_7.png",
+				"description":"Renovated the website with angularjs and node.js technology and providing support for the website"
+
+			}
+		];
+		var port = new Porfolio("port",portfolioData);
+		</script>
+	</body>
+</html>
